@@ -49,7 +49,7 @@ grâce à la commande `cd /var/log` et `sudo nano secure`
 - Je suis allé dans `/etc/shadow` mais le mdp était en clair.
 ![shadow](../main/TP2/img/shadow_marmotte.png)
 - J'ai donc vérifié si le `ENCRYPT_METHOD` était défini mais ça avait l'air good.
-![SHA512](main/TP2/img/SHA512.png)
+![SHA512](../main/img/SHA512.png)
 Donc je sais pas pourquoi et j'ai pas creusé plus mais je veux bien une explication.
 
 
@@ -63,7 +63,7 @@ Donc je sais pas pourquoi et j'ai pas creusé plus mais je veux bien une explica
 
 🌞 **Assurez-vous que vous pouvez vous connecter en tant que l'utilisateur `marmotte`**
 
-![triche?](../main/TP2/img/marmotte.png)
+![triche?](../main/img/marmotte.png)
 
 
 ## Très bon TP, j'ai beaucoup appris ! 
