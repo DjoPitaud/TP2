@@ -8,20 +8,20 @@
 
 🌞 **Trouver le chemin vers le répertoire personnel de votre utilisateur**
 
-![utilisateur](../main/TP2/img/utilisateur.png)
+![utilisateur](../main/img/utilisateur.png)
 
 
 🌞 **Trouver le chemin du fichier de logs SSH**
 
 grâce à la commande `cd /var/log` et `sudo nano secure`
 
-![log ssh](../main/TP2/img/log%20ssh.png)
+![log ssh](../main/img/log%20ssh.png)
 
 🌞 **Trouver le chemin du fichier de configuration du serveur SSH**
 
 - Le chemin est `cd etc/ssh/sshd_config.d`
   on peut le voir avec un `ls -a` dans ssh
-  ![config ssh](../main/TP2/img/dossier_config_ssh.png)
+  ![config ssh](../main/img/dossier_config_ssh.png)
 
 # II. Users
 
@@ -41,13 +41,13 @@ grâce à la commande `cd /var/log` et `sudo nano secure`
 
 🌞 **Prouver que cet utilisateur a été créé**
 
-![config ssh](../main/TP2/img/user_marmotte.png)
+![config ssh](../main/img/user_marmotte.png)
 
 
 🌞 **Déterminer le *hash* du password de l'utilisateur `marmotte`**
 
 - Je suis allé dans `/etc/shadow` mais le mdp était en clair.
-![shadow](../main/TP2/img/shadow_marmotte.png)
+![shadow](../main/img/shadow_marmotte.png)
 - J'ai donc vérifié si le `ENCRYPT_METHOD` était défini mais ça avait l'air good.
 ![SHA512](../main/img/SHA512.png)
 Donc je sais pas pourquoi et j'ai pas creusé plus mais je veux bien une explication.
