@@ -123,15 +123,12 @@ Donc je sais pas pourquoi et j'ai pas creusé plus mais je veux bien une explica
 
 🌞 **Installer le paquet `firefox`**
 
-- c'est uste pour faire pratiquer
-- si vous avez choisi un OS sans interface graphique, inutile de télécharger Firefox
-  - sans interface graphique, vous pouvez installer le paquet `git` pour remplacer
+![dnf_git](../main/img/dnf_git.png)
+![complete](../main/img/complete.png)
 
 🌞 **Utiliser une commande pour lancer Firefox**
 
-- comme d'hab, une commande, c'est un programme hein
-- déterminer le chemin vers le programme `firefox`
-- sans interface graphique, même exercice avec `git` : trouvez le chemin où est stocké la commande
+![git](../main/img/git.png)
 
 🌞 **Installer le paquet `nginx`**
 
