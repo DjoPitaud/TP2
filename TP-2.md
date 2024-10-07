@@ -106,38 +106,11 @@ Donc je sais pas pourquoi et j'ai pas creusé plus mais je veux bien une explica
 
 ## 4. La variable PATH
 
-**Sur tous les OS (MacOS, Windows, Linux, et autres) il existe une variable `PATH` qui est définie quand l'OS démarre.** Elle est accessible par toutes les applications qui seront lancées sur cette machine.
-
-**On dit que `PATH` est une variable d'environnement.** C'est une variable définie par l'OS, et accessible par tous les programmes.
-
-> *Il existe plein de variables d'environnement définie dès que l'OS démarre, `PATH` n'est pas la seule. On peut aussi en créer autant qu'on veut. Attention, suivant avec quel utilisateur on se connecte à une machine, les variables peuvent être différentes : parfait pour avoir chacun sa configuration !*
-
-**`PATH` contient la liste de tous les dossiers qui contiennent des commandes/programmes.**
-
-Ainsi quand on tape une commande comme `ls /home`, il se passe les choses suivantes :
-
-- votre terminal consulte la valeur de la variable `PATH`
-- parmi tous les dossiers listés dans cette variable, il cherche s'il y en a un qui contient un programme nommé `ls`
-- si oui, il l'exécute
-- sinon : `command not found`
-
-Démonstration :
-
-```bash
-# on peut afficher la valeur de la variable PATH à n'importe quel moment dans un terminal
-$ echo $PATH
-/usr/local/sbin:/usr/local/bin:/usr/bin:/bin
-# ça contient bien une liste de dossiers, séparés par le caractère ":"
-
-# si la commande ls fonctionne c'est forcément qu'elle se trouve dans l'un de ces dossiers
-# on peut savoir lequel avec la commande which qui interroge aussi la variable PATH
-$ which ls
-/usr/bin/ls
-```
-
 🌞 **Vérifier que**
-
 - les commandes `sleep`, `ssh`, et `ping` sont bien des programmes stockés dans l'un des dossiers listés dans votre `PATH`
+
+![verif](../main/img/verif.png)
+
 
 # II. Paquets
 
