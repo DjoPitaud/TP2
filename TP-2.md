@@ -132,22 +132,18 @@ Donc je sais pas pourquoi et j'ai pas creusé plus mais je veux bien une explica
 
 🌞 **Installer le paquet `nginx`**
 
-- il faut utiliser le gestionnaire de paquet natif à l'OS que tu as choisi
-- si c'est un système...
-  - basé sur Debian, comme Debian lui-même, ou Ubuntu, ou Kali, ou d'autres, c'est `apt` qui est fourni
-  - basé sur RedHat, comme Rocky, Fedora, ou autres, c'est `dnf` qui est fourni
+![nginx](../main/img/nginx.png)
 
 🌞 **Déterminer**
 
-- le chemin vers le dossier de logs de NGINX
-- le chemin vers le dossier qui contient la configuration de NGINX
+- le chemin vers le dossier de logs de NGINX souligné en rouge 
+- le chemin vers le dossier qui contient la configuration de NGINX souligné en vert
+
+![log](../main/img/log.png)
 
 🌞 **Mais aussi déterminer...**
 
-- l'adresse `http` ou `https` des serveurs où vous téléchargez des paquets
-- une commande `apt install` ou `dnf install` permet juste de faire un téléchargement HTTP
-- ma question c'est donc : sur quel(les) URL(s) tu te connectes pour télécharger des paquets
-- il existe un dossier qui contient la liste des URLs consultées quand vous demandez un téléchargement de paquets
+- Le dossier qui contient les URL est `yum.repos.d`
 
 
 
