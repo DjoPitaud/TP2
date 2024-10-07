@@ -95,34 +95,14 @@ Donc je sais pas pourquoi et j'ai pas creusé plus mais je veux bien une explica
 
 ## 3. Find paths
 
-➜ La commande `sleep`, comme toutes les commandes, c'est un programme
-
-- sous Linux, on met pas l'extension `.exe`, s'il y a pas d'extensions, c'est que c'est un exécutable généralement
 
 🌞 **Trouver le chemin où est stocké le programme `sleep`**
 
-- je veux voir un `ls -al /chemin | grep sleep` dans le rendu
+![ls_sleep](../main/img/ls_sleep.png)
 
 🌞 Tant qu'on est à chercher des chemins : **trouver les chemins vers tous les fichiers qui s'appellent `.bashrc`**
 
-- utilisez la commande `find`
-- `find` s'utilise comme suit : `find CHEMIN -name NAME`
-  - `CHEMIN` c'est un chemin vers un dossier : `find` va chercher des fichiers qui sont contenus dans ce dossier
-  - `NAME` est le nom du fichier qu'on cherche
-
-➜ `find` est une commande de ouf qui permet de trouver des fichiers ou dossiers selon plein de critères
-
-```bash
-# quelques exemples d'utilisation de find
-
-# trouver tous les .jpg sur tout le disque dur
-$ sudo find / -name "*.jpg"
-
-# trouver tous les .jpg sur tout le disque dur, s'ils font + de 10Mo
-$ sudo find / -name "./jpg" -size +10M
-
-# c'est un tout ptit aperçu, un peut chercher en fonction de plein plein de critères, et c'est hyper rapide
-```
+![find](../main/img/find.png)
 
 ## 4. La variable PATH
 
