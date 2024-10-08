@@ -162,10 +162,18 @@ Pour finir de vous exercer avec le terminal, je vous ai préparé une poupée ru
 
 ![rename](../main/img/rename.png)
 
-- extraire l'archive avec une commande
-- répétez ces opérations jusqu'à trouver le dossier `dawa/`
+- J'installe `zip` et je décompresse
+- Après avoir check avec `file` le fichier est compressé avec XZ. Je décompresse avec `unxz <file>`.
+- Re check et le `meow` est `RAR archive data, v5`
+- J'ai pas réussi à installer `rar` avec `sudo dnf install rar unrar` du coup je suis allé sur rarlab.com et j'ai rentré la suite de commandes:
+```
+$ cd /tmp
+$ wget https://www.rarlab.com/rar/rarlinux-x64-700b2.tar.gz
+$ tar -zxvf rarlinux-x64-700b2.tar.gz
+$ cd rar
+$ sudo cp -v rar unrar /usr/local/bin/
+```
 
-> *Dans les OS Linux, le format d'archivage/compression qu'on voit le plus c'est `.tar.gz` (archivage tar avec une compression gz) et moins de `.zip`.*
 
 🌞 **Dans le dossier `dawa/`, déterminer le chemin vers**
 
