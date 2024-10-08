@@ -186,9 +186,9 @@ $ sudo cp -v rar unrar /usr/local/bin/
   ![7](../main/img/7.png)
 - Pour `cookie` beaucoup plus simple
   ![cookie](../main/img/cookie.png)
-- Fichier caché identique sauf qu'il faut pas oublié `*` pour préciser que le fichier commence par un `.`
+- Fichier caché identique sauf qu'il faut pas oublier `*` pour préciser que le fichier commence par un `.`
   ![hidden](../main/img/hidden.png)
-  
+
 - le seul fichier qui date de 2014
 - le seul fichier qui a 5 dossiers-parents
   - je pense que vous avez vu que la structure c'est 50 `folderX`, chacun contient 50 dossiers `X`, et chacun contient 50 `fileX`
