@@ -174,7 +174,8 @@ $ cd rar
 $ sudo cp -v rar unrar /usr/local/bin/
 ```
 - et là après check je vois `gzip compressed data, from Unix, original size modulo 2^32 145049600`
-- 
+- J'installe `tar` je rename `meow` en `meox.tar.gz`
+- Je décompresse avec `tar -xvzf <file>` et là enfin j'arrive sur `dawa`
 
 🌞 **Dans le dossier `dawa/`, déterminer le chemin vers**
 
