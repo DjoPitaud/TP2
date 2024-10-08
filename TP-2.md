@@ -191,11 +191,9 @@ $ sudo cp -v rar unrar /usr/local/bin/
 
 - Pour la date 
   ![date](../main/img/date.png)
-- le seul fichier qui a 5 dossiers-parents
-  - je pense que vous avez vu que la structure c'est 50 `folderX`, chacun contient 50 dossiers `X`, et chacun contient 50 `fileX`
-  - bon bah là y'a un fichier qui est contenu dans `folderX/X/X/X/X/` et c'est le seul qui 5 dossiers parents comme ça
 
-![Matryoshka](./img/dolls.png)
+- Alors pour les parents j'utilise l'option `mindepth` avec `find`
+  ![parent](../main/img/parent.png)
 
 
 
