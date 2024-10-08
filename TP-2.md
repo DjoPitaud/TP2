@@ -155,8 +155,11 @@ Pour finir de vous exercer avec le terminal, je vous ai préparé une poupée ru
 
 🌞 **Trouver le dossier `dawa/`**
 
-- le fichier `meow` récupéré est une archive compressée
-- utilisez la commande `file /path/vers/le/fichier` pour déterminer le type du fichier
+- Je trouve le chemin avec `find / -name`
+- Je trouve le type de fichier avec `file /path/`
+
+![meow](../main/img/meow.png)
+
 - renommez-le fichier correctement (si c'est une archive compressée ZIP, il faut ajouter `.zip` à son nom)
 - extraire l'archive avec une commande
 - répétez ces opérations jusqu'à trouver le dossier `dawa/`
