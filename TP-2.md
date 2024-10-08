@@ -179,7 +179,8 @@ $ sudo cp -v rar unrar /usr/local/bin/
 
 🌞 **Dans le dossier `dawa/`, déterminer le chemin vers**
 
-- le seul fichier de 15Mo
+- Après le calcule de 15 Mo en kilooctets j'utilise `find`
+  ![15](../main/img/15.png)
 - le seul fichier qui ne contient que des `7`
 - le seul fichier qui est nommé `cookie`
 - le seul fichier caché (un fichier caché c'est juste un fichier dont le nom commence par un `.`)
