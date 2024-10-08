@@ -181,7 +181,9 @@ $ sudo cp -v rar unrar /usr/local/bin/
 
 - Après le calcule de 15 Mo en kilooctets j'utilise `find`
   ![15](../main/img/15.png)
-- le seul fichier qui ne contient que des `7`
+
+- Pour trouver le fichier qui contient que des 7 j'ai galéré et j'ai pas réussi à en trouver qu'un, après plusieurs tentatives j'en ai 2. 
+  ![7](../main/img/7.png)
 - le seul fichier qui est nommé `cookie`
 - le seul fichier caché (un fichier caché c'est juste un fichier dont le nom commence par un `.`)
 - le seul fichier qui date de 2014
