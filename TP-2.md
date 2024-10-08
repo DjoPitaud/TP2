@@ -116,12 +116,7 @@ Donc je sais pas pourquoi et j'ai pas creusé plus mais je veux bien une explica
 
 ➜ **Tous les OS Linux sont munis d'un store d'application**
 
-- c'est natif
-- quand tu fais `apt install` ou `dnf install`, ce genre de commandes, t'utilises ce store
-- on dit que `apt` et `dnf` sont des gestionnaires de paquets
-- ça permet aux utilisateurs de télécharger des nouveaux programmes (ou d'autres trucs) depuis un endroit safe
-
-🌞 **Installer le paquet `firefox`**
+🌞 **Installer le paquet `git`**
 
 ![dnf_git](../main/img/dnf_git.png)
 ![complete](../main/img/complete.png)
@@ -144,6 +139,42 @@ Donc je sais pas pourquoi et j'ai pas creusé plus mais je veux bien une explica
 🌞 **Mais aussi déterminer...**
 
 - Le dossier qui contient les URL est `yum.repos.d`
+
+# Partie 3 : Poupée russe
+
+Pour finir de vous exercer avec le terminal, je vous ai préparé une poupée russe :D
+
+
+
+➜ **Le but de l'exercice pour vous :**
+
+🌞 **Récupérer le fichier `meow`**
+
+- J'installe `wget` avec `sudo dnf install wget`
+- Je dl le fichier avec `sudo wget URL`
+
+🌞 **Trouver le dossier `dawa/`**
+
+- le fichier `meow` récupéré est une archive compressée
+- utilisez la commande `file /path/vers/le/fichier` pour déterminer le type du fichier
+- renommez-le fichier correctement (si c'est une archive compressée ZIP, il faut ajouter `.zip` à son nom)
+- extraire l'archive avec une commande
+- répétez ces opérations jusqu'à trouver le dossier `dawa/`
+
+> *Dans les OS Linux, le format d'archivage/compression qu'on voit le plus c'est `.tar.gz` (archivage tar avec une compression gz) et moins de `.zip`.*
+
+🌞 **Dans le dossier `dawa/`, déterminer le chemin vers**
+
+- le seul fichier de 15Mo
+- le seul fichier qui ne contient que des `7`
+- le seul fichier qui est nommé `cookie`
+- le seul fichier caché (un fichier caché c'est juste un fichier dont le nom commence par un `.`)
+- le seul fichier qui date de 2014
+- le seul fichier qui a 5 dossiers-parents
+  - je pense que vous avez vu que la structure c'est 50 `folderX`, chacun contient 50 dossiers `X`, et chacun contient 50 `fileX`
+  - bon bah là y'a un fichier qui est contenu dans `folderX/X/X/X/X/` et c'est le seul qui 5 dossiers parents comme ça
+
+![Matryoshka](./img/dolls.png)
 
 
 
