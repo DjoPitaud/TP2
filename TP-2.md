@@ -189,7 +189,8 @@ $ sudo cp -v rar unrar /usr/local/bin/
 - Fichier caché identique sauf qu'il faut pas oublier `*` pour préciser que le fichier commence par un `.`
   ![hidden](../main/img/hidden.png)
 
-- le seul fichier qui date de 2014
+- Pour la date 
+  ![date](../main/img/date.png)
 - le seul fichier qui a 5 dossiers-parents
   - je pense que vous avez vu que la structure c'est 50 `folderX`, chacun contient 50 dossiers `X`, et chacun contient 50 `fileX`
   - bon bah là y'a un fichier qui est contenu dans `folderX/X/X/X/X/` et c'est le seul qui 5 dossiers parents comme ça
