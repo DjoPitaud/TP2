@@ -160,7 +160,8 @@ Pour finir de vous exercer avec le terminal, je vous ai préparé une poupée ru
 
 ![meow](../main/img/meow.png)
 
-- renommez-le fichier correctement (si c'est une archive compressée ZIP, il faut ajouter `.zip` à son nom)
+![rename](../main/img/rename.png)
+
 - extraire l'archive avec une commande
 - répétez ces opérations jusqu'à trouver le dossier `dawa/`
 
